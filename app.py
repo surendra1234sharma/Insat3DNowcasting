@@ -5,7 +5,8 @@ import cv2
 import matplotlib.pyplot as plt
 from datetime import datetime, timedelta
 from model import ConvLSTM
-
+import sys
+st.write(sys.version)
 # =========================
 # SETTINGS
 # =========================
