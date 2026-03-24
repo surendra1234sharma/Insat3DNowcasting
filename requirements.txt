@@ -1,6 +1,5 @@
 streamlit
 torch==2.9.0
-torchvision==0.26.0
 numpy
 opencv-python-headless
 matplotlib
