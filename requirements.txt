@@ -1,0 +1,7 @@
+streamlit
+torch==2.9.0
+torchvision==0.20.0
+numpy
+opencv-python-headless
+matplotlib
+scikit-image
