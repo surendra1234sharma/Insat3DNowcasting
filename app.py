@@ -33,7 +33,7 @@ device = "cpu"
 @st.cache_resource
 def load_model():
     try:
-        model = ConvLSTM(input_dim=1)
+        model = ConvLSTM
         model.load_state_dict(torch.load("convlstm_insat3d.pth", map_location=device))
         model.eval()
         return model
