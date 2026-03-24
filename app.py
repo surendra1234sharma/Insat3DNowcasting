@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("🛰️ INSAT-3D Nowcasting (ConvLSTM)")
+st.title("🛰️ INSAT-3D Nowcasting")
 
 # =========================
 # IMPORTS
