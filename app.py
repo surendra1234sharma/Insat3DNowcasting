@@ -100,7 +100,7 @@ def display_error(img, title=""):
     ax.set_title(title)
     ax.axis("off")
 
-    plt.colorbar(im, ax=ax)   # ✅ COLORBAR ADDED
+    plt.colorbar(im, ax=ax)
 
     return fig
 
